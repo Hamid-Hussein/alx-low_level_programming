@@ -1,7 +1,10 @@
 #include <stdio.h>
-/**                                                * main - Entery point
- *                                                 * Return: Always 0 (Success)
+/**
+ * main - main function
+ *
+ * Return: always 0
  */
+
 int main(void)
 {
 	printf("Size of a char: %lu byte(s)\n", sizeof(char));
