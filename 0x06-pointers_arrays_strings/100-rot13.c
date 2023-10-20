@@ -2,8 +2,8 @@
 
 /**
  * rot13 - encode string using rot13 encoding scheme
- *@s: string to be encoded
- *Return: s
+ * @s: string to be encoded
+ * Return: s
  */
 
 char *rot13(char *s)
