@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main - print minimume number of coints
+ * main - print minimume number of coins
  * @argc: argument count
  * @argv: argument vector
  * Return: 0
@@ -10,7 +10,7 @@
 
 int main(int argc, char *argv[])
 {
-	int cents, coints = 0;
+	int cents, coins = 0;
 
 	if (argc != 2)
 	{
@@ -22,6 +22,7 @@ int main(int argc, char *argv[])
 
 	if (cents < 0)
 		printf("%d\n", 0);
+
 	while (cents > 0)
 	{
 		if (cents >= 25)
@@ -34,8 +35,8 @@ int main(int argc, char *argv[])
 			cents -= 2;
 		else if (cents >= 1)
 			cents -= 1;
-		coints++;
+		coins++;
 	}
-	printf("%d\n", coints);
+	printf("%d\n", coins);
 	return (0);
 }
